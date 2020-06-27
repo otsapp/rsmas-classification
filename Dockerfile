@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 ADD . /app
 
-CMD PYTHONPATH=src python -m xrayclassifier.trainer.training -d /tmp
+CMD PYTHONPATH=src python -m coralclassifier.trainer.training -d /tmp

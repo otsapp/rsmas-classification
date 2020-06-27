@@ -1,4 +1,4 @@
-APP_NAME = "covid_classifier"
+APP_NAME = "coral_classifier"
 
 Build:
 	docker build -t $(APP_NAME) .
