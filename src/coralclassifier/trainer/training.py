@@ -7,9 +7,9 @@ from torchvision import models
 from datetime import date
 import os
 
-from coralclassifier.processing import PrepareImageDirectory
-from coralclassifier.processing import DataLoaders
-from coralclassifier.trainer.process import ModelTraining
+from xrayclassifier.processing import PrepareImageDirectory
+from xrayclassifier.processing import DataLoaders
+from xrayclassifier.trainer.process import ModelTraining
 
 
 def model_fn(model_path, name):
